@@ -7,6 +7,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { CtrsidebarComponent } from './ctrsidebar/ctrsidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
+import { StockManageComponent } from './stock/stock-manage/stock-manage.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ContentComponent } from './content/content.component';
     SidebarComponent,
     CtrsidebarComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
+    StockManageComponent
   ],
   imports: [
     BrowserModule
