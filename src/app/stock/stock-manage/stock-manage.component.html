@@ -26,7 +26,7 @@
         <td>{{i + 1}}</td>
         <td>{{stock.name}}</td>
         <td>{{stock.price}}</td>
-        <td><app-stars></app-stars></td>
+        <td><app-stars [rating]="stock.rating"></app-stars></td>
         <td>
           <a class="btn btn-warning btn-sm"><span class="fas fa-edit">修改</span></a>
           <a class="btn btn-danger btn-sm"><span class="fas fa-trash-alt">删除</span></a>
